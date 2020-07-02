@@ -1,0 +1,6 @@
+@keyframes theme{
+    1%{background-image:linear-gradient( to bottom right,#b8e5f8,white);}
+    33%{background-image:linear-gradient( to bottom right,white,#c9e9f6,);}
+    66%{background-image:linear-gradient( to bottom right,#caefff,white);}
+    100%{background-image:linear-gradient( to bottom right,white,#b4e6fc,);}
+}
