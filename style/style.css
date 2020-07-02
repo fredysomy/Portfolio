@@ -1,14 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;300&display=swap');
 body{
     padding:0;
     margin:0;
     background-image:linear-gradient( to bottom right,#caefff,white);
-    animation:theme;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 4s;
-    animation-timing-function:ease-in-out ;
+
 }
 
 .subcont{
@@ -24,6 +19,12 @@ body{
     padding-top: 5%;
     padding:9% 0;
 }
+.abtme{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(53, 139, 252);
+    text-align: center;
+    font-size: 50px;
+}
 
 .img{
     width:400px;
@@ -32,7 +33,36 @@ body{
     border-radius: 10px;
    
 }
+.am{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.am p{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 
+}
+.abt{
+    width:60%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.cv{
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.resume{
+    margin-top:25%;
+    width:170px;
+    height:40px;
+    background-color: rgb(23, 159, 250);
+    border-radius: 10px;
+    font-size: 25px;
+}
 .headname{
     text-align: left;
     font-family : 'Fjalla One', sans-serif;
@@ -46,7 +76,7 @@ body{
 .currentprofile li{
     text-align: left;
     font-size: 34px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 .name .currentprofile{
     margin-left: 30px;
@@ -110,6 +140,7 @@ body{
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    margin-left: 5%;
 
 }
 .project{
@@ -121,7 +152,8 @@ body{
     height:300px;
    
     margin:2% auto;
-   
+   border: 2px rgb(37, 119, 250) solid;
+   border-radius: 5px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -131,27 +163,68 @@ body{
 .actproj{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
-.imgpro{
-    background-size: contain;
-    width:100%;
-    height:100%;
+.acpro h1{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
-.propop{
-    z-index: 2;
-    width:100%;
-    
-    
+.acpro h3{
+    margin-top: -20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(41, 127, 240);
+    text-align:center;
+    text-decoration: bold;
+
+}
+.acpro p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+
+}
+.acpro h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+    text-decoration: none;
+    text-align: center;
+
 }
 @media all and (max-width:1450px){
     .subcont{
         padding:15% 0;
     }
+    .acpro{
+        width:33%;
+    }
 
 
 }
 @media all and (max-width:1200px){
+
+}
+@media all and (max-width:980px){
+    .am{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .am p{
+        text-align: left;
+        margin:3px;
+        font-size: 15px;
+    }
+    .abt{
+        width:100%;
+    }
+    .cv{
+        
+       
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 @media all and (max-width:547px){
@@ -172,7 +245,7 @@ body{
         margin-left: 20px;
     }
     .currentprofile li{
-        font-size: 25px;
+        font-size: 21px;
     }
     .logo{
         width:30px;
@@ -209,8 +282,16 @@ body{
     .acpro{
         width:80%;
         margin:20px auto;
-        height:200px;
+        height:fit-content;
+    }
+    .acpro h1{
+        font-size:25px;
+    }
+    .am p{
+        text-align: center;
     }
    
    
 }
+
+
