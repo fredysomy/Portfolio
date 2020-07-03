@@ -39,9 +39,9 @@ body{
     flex-direction:row;
 }
 .am p{
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 
 }
 .abt{
@@ -213,7 +213,7 @@ body{
     .am p{
         text-align: left;
         margin:3px;
-        font-size: 15px;
+        font-size: 20px;
     }
     .abt{
         width:100%;
