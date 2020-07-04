@@ -6,6 +6,7 @@ body{
 
 }
 
+
 .subcont{
    
     margin:0;
@@ -23,7 +24,7 @@ body{
     font-family: 'Poppins', sans-serif;
     color:rgb(53, 139, 252);
     text-align: center;
-    font-size: 30px;
+    font-size: 56px;
 }
 
 .img{
@@ -45,23 +46,44 @@ body{
 
 }
 .abt{
-    width:60%;
+    width:50%;
     margin-left:auto;
     margin-right: auto;
 }
 .cv{
-    
+    width:40%;
+  display:flex;
+  flex-direction: column;  
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    
 }
 .resume{
-    margin-top:25%;
+    margin-top:2%;
     width:170px;
     height:40px;
     background-color: rgb(23, 159, 250);
     border-radius: 10px;
     font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.lab{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.prog{
+    margin-left: 0px;
+    height:0px;
+    height:30px;
+width:300px;
 }
 .headname{
     text-align: left;
@@ -119,7 +141,7 @@ body{
 }
 .e1,.e2{
    
-    margin:5%;
+    margin:3%;
     text-align: center;
     font-family : 'Fjalla One', sans-serif;letter-spacing: 3px;color:black;
 }
@@ -222,8 +244,7 @@ body{
         
        
         margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
+       
     }
 
 }
@@ -290,8 +311,17 @@ body{
     .am p{
         text-align: center;
     }
+    .abtme{
+        font-size: 30px;
+    }
+    .cv{
+        width:90%;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+    .prog{
+        width:250px;
+    }
    
    
 }
-
-
