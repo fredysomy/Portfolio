@@ -35,7 +35,8 @@ body{
    
 }
 .am{
-    width:100%;
+    width:80%;
+    margin:10% auto;
     display:flex;
     flex-direction:row;
 }
@@ -321,6 +322,9 @@ width:300px;
     }
     .prog{
         width:250px;
+    }
+    .am{
+        width:100%;
     }
    
    
