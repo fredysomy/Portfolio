@@ -47,12 +47,12 @@ body{
 
 }
 .abt{
-    width:50%;
+    width:40%;
     margin-left:auto;
     margin-right: auto;
 }
 .cv{
-    width:40%;
+    width:30%;
   display:flex;
   flex-direction: column;  
     margin-left: auto;
