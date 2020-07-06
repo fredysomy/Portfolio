@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;300&display=swap');
+body{
+    padding:0;
+    margin:0;
+    background-image:linear-gradient( to bottom right,#caefff,white);
+
+}
+
+
+.subcont{
+   
+    margin:0;
+    width:100%;
+    height:fit-content;
+   
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:0% auto;
+    padding-top: 5%;
+    padding:9% 0;
+}
+.abtme{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(53, 139, 252);
+    text-align: center;
+    font-size: 56px;
+}
+
+.img{
+    width:400px;
+    height:440px;
+    
+    border-radius: 10px;
+   
+}
+.am{
+    width:80%;
+    margin:10% auto;
+    display:flex;
+    flex-direction:row;
+}
+.am p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+}
+.abt{
+    width:40%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.cv{
+    width:30%;
+  display:flex;
+  flex-direction: column;  
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.resume{
+    margin-top:2%;
+    width:170px;
+    height:40px;
+    background-color: rgb(23, 159, 250);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.lab{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.prog{
+    margin-left: 0px;
+    height:0px;
+    height:30px;
+width:300px;
+}
+.headname{
+    text-align: left;
+    font-family : 'Fjalla One', sans-serif;
+    font-size : 70px;
+    letter-spacing : 5px;
+    color : rgb(0, 0, 0);
+    margin-left: 20px;
+    
+}
+
+.currentprofile li{
+    text-align: left;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+}
+.name .currentprofile{
+    margin-left: 30px;
+}
+
+.we{
+    
+    width:fit-content;
+    height:fit-content;
+   margin-left:auto;
+   margin-right:auto;
+    z-index:2;
+   
+   
+}
+.logo{
+    width:50px;
+    height:50px;
+    margin:0px 20px;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.namemine{
+    padding:3px;
+    color: cyan;
+  
+}
+.education{
+    width:50%;
+    height:550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin:5% auto;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.e1,.e2{
+   
+    margin:3%;
+    text-align: center;
+    font-family : 'Fjalla One', sans-serif;letter-spacing: 3px;color:black;
+}
+.ed{
+    margin-top: 56px;
+    padding-right: auto;
+    padding-left:auto ;
+    
+    text-align: center;
+    margin-left: auto;margin-right: auto;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+   color:rgb(53, 139, 252);letter-spacing: 5px;
+   text-decoration: underline;
+  
+}
+.exp{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+.project{
+    width:80%;
+    margin:5% auto;
+}
+.acpro{
+    width:26.66%;
+    height:300px;
+   
+    margin:2% auto;
+   border: 2px rgb(37, 119, 250) solid;
+   border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.actproj{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.acpro h1{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.acpro h3{
+    margin-top: -20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(41, 127, 240);
+    text-align:center;
+    text-decoration: bold;
+
+}
+.acpro p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+
+}
+.acpro h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+@media all and (max-width:1450px){
+    .subcont{
+        padding:15% 0;
+    }
+    .acpro{
+        width:33%;
+    }
+
+
+}
+@media all and (max-width:1200px){
+
+}
+@media all and (max-width:980px){
+    .am{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .am p{
+        text-align: left;
+        margin:3px;
+        font-size: 20px;
+    }
+    .abt{
+        width:100%;
+    }
+    .cv{
+        
+       
+        margin-top: 0;
+       
+    }
+
+}
+@media all and (max-width:547px){
+    .subcont{
+        flex-direction: column;
+        padding:5% 0;
+    }
+    .img{
+        width:242px;
+        height:270px;
+        margin-top: 20%;
+        margin-left:auto;
+    margin-right: auto;
+    }
+    .headname{
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-left: 20px;
+    }
+    .currentprofile li{
+        font-size: 21px;
+    }
+    .logo{
+        width:30px;
+        height:30px;
+        margin:0px 10px;
+        margin-top: -10px;
+    }
+    .education{
+        width:90%;
+        height:fit-content;
+    }
+    .ed{
+        font-size: 30px;
+    }
+    .e1 h1,.e1 h3{
+        font-size:20px;
+    }
+    .e2 h1,.e2 h3{
+        font-size:20px;
+    }
+    .exp{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .project{
+        width:100%;
+        margin:0% auto;
+    }
+    .actproj{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .acpro{
+        width:80%;
+        margin:20px auto;
+        height:fit-content;
+    }
+    .acpro h1{
+        font-size:25px;
+    }
+    .am p{
+        text-align: center;
+    }
+    .abtme{
+        font-size: 30px;
+    }
+    .cv{
+        width:90%;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+    .prog{
+        width:250px;
+    }
+    .am{
+        width:100%;
+    }
+   
+   
+}
