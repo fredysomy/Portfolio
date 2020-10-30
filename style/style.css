@@ -14,7 +14,7 @@ body{
     height:fit-content;
    
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     margin:0% auto;
     padding-top: 5%;
